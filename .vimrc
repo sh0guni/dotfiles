@@ -28,6 +28,7 @@ set wildmenu
 set ttyfast
 set ruler
 set laststatus=2
+set nowrap
 
 set incsearch
 set showmatch
