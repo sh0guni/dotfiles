@@ -52,7 +52,6 @@ au FocusLost * :wa
 
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
-inoremap jk <ESC>
 let mapleader = "\<Space>"
 if has('mac')
     nnoremap <T-Left> <C-w><Left>
