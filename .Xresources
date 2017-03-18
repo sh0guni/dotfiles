@@ -7,6 +7,24 @@ Xcursor.theme: ElCapitan
 xterm*faceName: Hack
 xterm*faceSize: 10
 
+! URxvt
+! Xft.dpi:                        109
+! URxvt*termName:                 rxvt-256color
+URxvt.font:											xft:Hack:pixelsize=14
+URxvt.depth:                    32
+URxvt*lineSpace:                1
+! URxvt.letterSpace:              0
+URxvt.iso14755:                 false
+URxvt.iso14755_52:              false
+URxvt.geometry: 96x42+50+74
+URxvt.scrollBar:                false
+URxvt*loginShell:               true
+! URxvt.internalBorder:           35
+URxvt.perl-ext-common:          default,clipboard
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.clipboard.autocopy:       true
+
 ! Solarized color scheme for the X Window System
 !
 ! http://ethanschoonover.com/solarized
